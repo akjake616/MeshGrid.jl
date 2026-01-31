@@ -32,7 +32,7 @@ function meshgrid(x, y, z)
     Y = Array{T}(undef, sy, sx, sz)
     Z = Array{T}(undef, sy, sx, sz)
 
-    @inbounds for i in 1:sx, j in 1:sy, k in 1:sz
+    @inbounds for k in 1:sz, i in 1:sx, j in 1:sy
         X[j, i, k] = x[i]
         Y[j, i, k] = y[j]
         Z[j, i, k] = z[k]

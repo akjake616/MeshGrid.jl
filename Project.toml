@@ -1,7 +1,7 @@
 name = "MeshGrid"
 uuid = "ebf956a0-ef5e-43be-9fb1-27952996e635"
 authors = ["Jake W. Liu"]
-version = "1.0.3"
+version = "1.0.4"
 
 [compat]
 julia = "1.6.7"
